@@ -1,0 +1,101 @@
+.top_bar {
+    padding: 1px;
+    height: 60px;
+    background-color: #918989;
+    margin: -10px;
+}
+
+#text_top_bar {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    /* move the text to up  */
+    margin-top: 11px;
+    margin-bottom: auto;
+    margin-left: 100px;
+}
+
+#user_input,#stored_input  {
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+
+.hline {
+    border-bottom: 1px solid black;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+.input_space, .current_space {
+    display: flex;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 200px;
+    border-radius: 20px;
+}
+
+body {
+    background-color: #dfd8d8;
+}
+
+
+.input_box {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: fit-content;
+}
+
+#product_code {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 200px;
+}
+
+#add_to_list {
+    margin-left: 140px;
+    margin-bottom: 100px;
+    padding: 5px;
+    width: 100px;
+}
+  
+.vline {
+    border-left: 1px solid black;
+    height: 200px; 
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.qr_code {
+    margin-left: 100px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+.current_table {
+    margin: 10px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  tr:hover {
+    background-color: #f5f5f5;
+  }
